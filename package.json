@@ -1,0 +1,35 @@
+{
+  "name": "@meetgupta996/mockmate",
+  "version": "1.0.0",
+  "description": "A reusable Node.js library for generating realistic mock data, relational datasets, and database seed files.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "scripts": {
+    "test": "node --test test/",
+    "examples": "node examples/01-predefined-generators.js && node examples/02-custom-schema.js && node examples/03-relational-data.js && node examples/04-json-csv-export.js && node examples/05-sql-export.js && node examples/06-database-seeding.js && node examples/07-reproducible-data.js"
+  },
+  "keywords": [
+    "mock",
+    "mock-data",
+    "seed",
+    "faker",
+    "testing",
+    "database",
+    "fixtures"
+  ],
+  "author": "Meet Gupta",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@faker-js/faker": "^10.6.0"
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "devDependencies": {}
+}
